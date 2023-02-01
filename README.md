@@ -66,5 +66,5 @@ Open your browser at [localhost:3000](localhost:3000) to see the running applica
 
 After you've got your application running locally, it's time to deploy it. Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-mysql&project-name=with-mysql&repository-name=with-mysql&env=DATABASE_URL)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/mksuni/nextjs-app-azure-db-mysql&repository-name=nextjs-app-azure-db-mysql&env=DATABASE_URL)
 
