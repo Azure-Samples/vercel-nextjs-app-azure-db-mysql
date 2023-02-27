@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org/) project that uses [Prisma](https://www.
 - Create [Azure database for MySQL Flexible Server](https://learn.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal) in Azure. Create a [free Azure account](https://azure.microsoft.com/en-us/free/) if you dont have one.
 
 ## Set up the database
-In the [Azure portal], go to MySQL Flexible server resource and select **Add** to create new datbase called `products`.
+In the [Azure portal](https://portal.azure.com), go to MySQL Flexible server resource and select **Add** to create new datbase called `products`.
 
 ![image](https://user-images.githubusercontent.com/3684166/215588422-f5735f74-dace-4da4-9995-903ed618eaf5.png)
 
@@ -26,7 +26,7 @@ pnpm create next-app nextjs-azure-mysql
 
 ## Download SSL certificate
 
-Azure database for MySQL Flexible Server using a public SSL CA certificate to connect. See  DigiCertGlobalRootCA.crt.pem in the `prisma` folder will help with authentication over SSL to work seamlessly. 
+Azure database for MySQL Flexible Server using a public SSL CA certificate to connect. Place the [DigiCertGlobalRootCA.crt.pem](https://dl.cacerts.digicert.com/DigiCertGlobalRootCA.crt.pem) in the `prisma` folder will help with authentication over SSL to work seamlessly. 
 
 ## MySQL connection string
 Now you need to create a connection string in the following format for the Azure database for MySQL Flexible Server. When creating the server, you provided an admin username and password which you will use in the connection string.  Note that SSL is enabled by default on Azure database for MySQL Flexible server and hence please use `sslaccept=strict` in the connection string. If you have [disabled SSL](https://learn.microsoft.com/azure/mysql/flexible-server/how-to-connect-tls-ssl#disable-ssl-enforcement-on-your-flexible-server) on the server, you can remove it from the connection string.
