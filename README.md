@@ -1,6 +1,6 @@
 # Next.js + Azure Database for MySQL
 
-This is a [Next.js](https://nextjs.org/) project that uses [Prisma](https://www.prisma.io/) to connect to a [Azure database for MySQL](https://learn.microsoft.com/azure/mysql/)MySQL database and [Tailwind CSS](https://tailwindcss.com/) for styling.
+This is a [Next.js](https://nextjs.org/) project that uses [Prisma](https://www.prisma.io/) to connect to a [Azure database for MySQL](https://learn.microsoft.com/azure/mysql/) database and [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Prerequisites
 
