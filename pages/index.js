@@ -6,8 +6,8 @@ export default function Home({ products }) {
   return (
     <div>
       <Head>
-        <title>PlanetScale Next.js Quickstart</title>
-        <meta name="description" content="PlanetScale Quickstart for Next.js" />
+        <title> Next.js and Azure Database for MySQL Quickstart</title>
+        <meta name="description" content="Next.js and Azure Database for MySQL Quickstart" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
