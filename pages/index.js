@@ -12,7 +12,8 @@ export default function Home({ products }) {
       </Head>
 
       <main className="p-10 mx-auto max-w-4xl">
-        <h1 className="text-6xl font-bold mb-4 text-center">Next.js Starter</h1>
+        <h1 className="text-6xl font-bold mb-4 text-center">Next.js and Azure Database for MySQL Quickstart</h1>
+        <h2> Innovate faster with fully managed MySQL and an <a href-"https://azure.microsoft.com/en-us/free/mysql/">Azure free account</a>. Get started with 12 months of free services </h2>
         <p className="mb-20 text-xl text-center">
           🔥 Shop from the hottest items in the world 🔥
         </p>
