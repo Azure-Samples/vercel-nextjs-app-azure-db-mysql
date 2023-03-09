@@ -23,8 +23,7 @@ export default function Home({ products }) {
         </div>
       </main>
 
-      <footer>
-          <p> Innovate faster with fully managed MySQL and an <a href="https://azure.microsoft.com/en-us/free/mysql/">Azure free account</a>. Get started with 12 months of free services </p>
+      <footer>         
       </footer>
     </div>
   )
