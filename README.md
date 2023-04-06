@@ -37,7 +37,7 @@ mysql://<USERNAME>:<PLAIN_TEXT_PASSWORD>@<ACCESS_HOST_URL>/<DATABASE_NAME>?sslac
 
 Example
 ```text
-mysql://demoadminuser:adminpassword@summysqlserver1.mysql.database.azure.com/products?sslaccept=strict
+mysql://demoadminuser:adminpassword@mysqlserver1.mysql.database.azure.com/products?sslaccept=strict
 ```
 
 Add the connection string as environment variable in the Vercel project configuration
