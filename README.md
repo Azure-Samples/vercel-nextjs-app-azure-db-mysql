@@ -1,11 +1,11 @@
 # Next.js + Azure Database for MySQL
 
-This is a [Next.js](https://nextjs.org/) project that uses [Prisma](https://www.prisma.io/) to connect to a [Azure database for MySQL](https://learn.microsoft.com/azure/mysql/) database and [Tailwind CSS](https://tailwindcss.com/) for styling.
+This is a [Next.js](https://nextjs.org/) project that uses [Prisma](https://www.prisma.io/) to connect to an [Azure Database for MySQL](https://learn.microsoft.com/azure/mysql/) database and [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/)
-- Create [Azure database for MySQL Flexible Server](https://learn.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal) in Azure. Create a [free Azure account](https://azure.microsoft.com/en-us/free/) if you dont have one.
+- Create [Azure Database for MySQL Flexible Server](https://learn.microsoft.com/azure/mysql/flexible-server/quickstart-create-server-portal) in Azure. Create a [free Azure account](https://azure.microsoft.com/en-us/free/) if you dont have one.
 
 ## Set up the database
 In the [Azure portal](https://portal.azure.com), go to MySQL Flexible server resource and select **Add** to create new database called `products`.
